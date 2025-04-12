@@ -1,13 +1,14 @@
 package com.LLD.LLD.VendingMachine;
 
+import java.util.List;
+
 public interface VendingMachineState {
-    void selectProduct(Product product);
 
-    void insertCoin(Coin coin);
+    void insertNote(List<Note> notes, VendingMachine vendingMachine) throws Exception;
 
-    void insertNote(Note note);
+    void selectProduct(int id, int quantity, VendingMachine vendingMachine) throws Exception;
 
-    void dispenseProduct();
+    void dispenseProduct(VendingMachine vendingMachine, int id, int quantity) throws Exception;
 
-    void returnChange();
+    void returnChange(VendingMachine vendingMachine) throws Exception;
 }
