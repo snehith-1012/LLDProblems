@@ -1,0 +1,12 @@
+package com.LLD.LLD.stackOverflow;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public interface Votable {
+
+    void addVote(Vote vote);
+
+    int getNumberOfVotes();
+
+}
