@@ -33,7 +33,6 @@ public class ReadyState implements VendingMachineState {
             vendingMachine.setVendingMachineState(new IdleState());
             throw new Exception("the quantity you requested is not available");
         }
-        vendingMachine.setMoney(vendingMachine.getMoney() + sumOfUserRequestedProductsCost);
         vendingMachine.updateUserMoney(vendingMachine.getUserMoney() - sumOfUserRequestedProductsCost);
         vendingMachine.setVendingMachineState(new DispenseState());
     }
