@@ -1,4 +1,4 @@
-package com.LLD.LLD.VendingMachine.vendingMachineState;
+package com.LLD.LLD.VendingMachine;
 
 import com.LLD.LLD.VendingMachine.VendingMachine;
 

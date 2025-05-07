@@ -2,7 +2,7 @@ package com.LLD.LLD.VendingMachine.changeReturner;
 
 import com.LLD.LLD.VendingMachine.Note;
 import com.LLD.LLD.VendingMachine.VendingMachine;
-import com.LLD.LLD.VendingMachine.vendingMachineState.ChangeReturner;
+import com.LLD.LLD.VendingMachine.ChangeReturner;
 
 import java.util.Iterator;
 
