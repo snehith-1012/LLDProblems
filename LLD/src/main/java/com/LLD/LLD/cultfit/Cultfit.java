@@ -34,16 +34,22 @@ public class Cultfit {
         this.gyms.put(gym.getGymId(), gym);
     }
 
-    public void addWorkoutSlotForAGym(String gymId, WorkOutTypeEnum workOutTypeEnum, Slot slot) {
-        this.gyms.get(gymId).addWorkoutSlot(workOutTypeEnum, slot);
+    public void addWorkoutSlotForAGym(User admin, String gymId, WorkOutTypeEnum workOutTypeEnum, Slot slot) {
+        if (admin.getUserTypeEnum() == UserTypeEnum.ADMIN) {
+            this.gyms.get(gymId).addWorkoutSlot(workOutTypeEnum, slot);
+        }
     }
 
-    public void cancelWorkOutSlotForAGym(String gymId, WorkOutTypeEnum workOutTypeEnum, String slotId) {
-        this.gyms.get(gymId).cancelWorkOutSlot(workOutTypeEnum, slotId);
+    public void cancelWorkOutSlotForAGym(User admin, String gymId, WorkOutTypeEnum workOutTypeEnum, String slotId) {
+        if (admin.getUserTypeEnum() == UserTypeEnum.ADMIN) {
+            this.gyms.get(gymId).cancelWorkOutSlot(workOutTypeEnum, slotId);
+        }
     }
 
-    public void displayWorkOutSlotsForAGym(String gymId, WorkOutTypeEnum workOutTypeEnum) {
-        this.gyms.get(gymId).getWorkouts().get(workOutTypeEnum).DisplaySlots();
+    public void displayWorkOutSlotsForAGym(User admin, String gymId, WorkOutTypeEnum workOutTypeEnum) {
+        if (admin.getUserTypeEnum() == UserTypeEnum.ADMIN) {
+            this.gyms.get(gymId).getWorkouts().get(workOutTypeEnum).DisplaySlots();
+        }
     }
 
     // users
