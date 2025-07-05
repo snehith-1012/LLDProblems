@@ -1,8 +1,5 @@
-package com.LLD.LLD.ParkingLot.Vehicle;
+package com.LLD.LLD.ParkingLot.v1.Vehicle;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Setter

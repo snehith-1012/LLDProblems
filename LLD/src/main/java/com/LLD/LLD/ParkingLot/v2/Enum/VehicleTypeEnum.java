@@ -1,9 +1,8 @@
-package com.LLD.LLD.ParkingLot.Vehicle;
+package com.LLD.LLD.ParkingLot.v2.Enum;
 
 public enum VehicleTypeEnum {
 
-    CAR,
-
     BIKE,
+    CAR,
     TRUCK;
 }

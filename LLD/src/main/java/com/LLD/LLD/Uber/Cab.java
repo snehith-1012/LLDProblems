@@ -4,7 +4,7 @@ import lombok.Builder;
 
 import java.util.Random;
 
-@Builder
+//@Builder
 public class Cab {
 
     private String vehicleNumber;

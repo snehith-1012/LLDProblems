@@ -1,4 +1,4 @@
-package com.LLD.LLD.ParkingLot.Vehicle;
+package com.LLD.LLD.ParkingLot.v1.Vehicle;
 
 public class Truck extends Vehicle{
 

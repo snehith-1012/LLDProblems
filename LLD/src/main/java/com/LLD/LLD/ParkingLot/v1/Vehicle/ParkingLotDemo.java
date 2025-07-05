@@ -1,7 +1,4 @@
-package com.LLD.LLD.ParkingLot;
-
-import com.LLD.LLD.ParkingLot.Vehicle.Vehicle;
-import com.LLD.LLD.ParkingLot.Vehicle.VehicleTypeEnum;
+package com.LLD.LLD.ParkingLot.v1.Vehicle;
 
 public class ParkingLotDemo {
 

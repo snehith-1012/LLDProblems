@@ -1,6 +1,4 @@
-package com.LLD.LLD.ParkingLot;
-
-import com.LLD.LLD.ParkingLot.Vehicle.Vehicle;
+package com.LLD.LLD.ParkingLot.v1.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;

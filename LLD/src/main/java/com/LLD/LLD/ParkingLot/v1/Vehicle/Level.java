@@ -1,11 +1,4 @@
-package com.LLD.LLD.ParkingLot;
-
-import com.LLD.LLD.ParkingLot.Vehicle.Vehicle;
-import com.LLD.LLD.ParkingLot.Vehicle.VehicleTypeEnum;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+package com.LLD.LLD.ParkingLot.v1.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;
