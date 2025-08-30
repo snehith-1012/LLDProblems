@@ -13,19 +13,6 @@ import static com.LLD.LLD.CronParser.Constants.cronExpressionConstants.STAR;
 
 public class RangeAndStepParsingStratergy implements ParsingStratergy {
 
-    private static volatile ParsingStratergy rangeAndStepParsingStratergy;
-
-    public static ParsingStratergy getInstance() {
-        if (rangeAndStepParsingStratergy == null) {
-            synchronized (RangeAndStepParsingStratergy.class) {
-                if (rangeAndStepParsingStratergy == null) {
-                    rangeAndStepParsingStratergy = new RangeAndStepParsingStratergy();
-                }
-            }
-        }
-        return rangeAndStepParsingStratergy;
-    }
-
     @Override
     public void parse(String partialString, CronChainHandler handler, Map<String, List<Integer>> result) {
         List<Integer> vals = new ArrayList<>();
@@ -63,7 +50,7 @@ public class RangeAndStepParsingStratergy implements ParsingStratergy {
                 throw new InvalidCronExpression("");
             }
             int increment = 1;
-            if (!Objects.equals(step,null)) {
+            if (!Objects.equals(step, null)) {
                 try {
                     increment = Integer.parseInt(step);
                 } catch (NumberFormatException e) {

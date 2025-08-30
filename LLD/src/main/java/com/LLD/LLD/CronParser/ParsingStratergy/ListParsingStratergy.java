@@ -12,19 +12,6 @@ import static com.LLD.LLD.CronParser.Constants.TimeMeasurmentConstants.*;
 
 public class ListParsingStratergy implements ParsingStratergy {
 
-    private static volatile ListParsingStratergy listParsingStratergy;
-
-    public static ParsingStratergy getInstance() {
-        if (listParsingStratergy == null) {
-            synchronized (ListParsingStratergy.class) {
-                if (listParsingStratergy == null) {
-                    listParsingStratergy = new ListParsingStratergy();
-                }
-            }
-        }
-        return listParsingStratergy;
-    }
-
     @Override
     public void parse(String partialString, CronChainHandler handler, Map<String, List<Integer>> result) {
         String[] arr = partialString.split(",");

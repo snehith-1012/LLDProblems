@@ -12,19 +12,6 @@ import static com.LLD.LLD.CronParser.Constants.TimeMeasurmentConstants.MONTH;
 
 public class SingleValueParsingStratergy implements ParsingStratergy {
 
-    private static volatile ParsingStratergy singleValueParsingStratergy;
-
-    public static ParsingStratergy getInstance() {
-        if (singleValueParsingStratergy == null) {
-            synchronized (SingleValueParsingStratergy.class) {
-                if (singleValueParsingStratergy == null) {
-                    singleValueParsingStratergy = new SingleValueParsingStratergy();
-                }
-            }
-        }
-        return singleValueParsingStratergy;
-    }
-
     @Override
     public void parse(String partialString, CronChainHandler handler, Map<String, List<Integer>> result) {
 

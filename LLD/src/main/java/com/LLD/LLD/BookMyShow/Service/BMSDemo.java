@@ -15,7 +15,7 @@ public class BMSDemo {
         MovieService movieService = new MovieService();
         UserService userService = new UserService();
         BookingService bookingService = new BookingService();
-        PaymentService paymentService = new PaymentService();
+//        PaymentService paymentService = new PaymentService();
 
         User user1 = new User("101","snehith","snehith@gmail.com",300);
         userService.addUser(user1);
@@ -46,7 +46,7 @@ public class BMSDemo {
         theatreService.updateSeatReservationStatus("1", "401", "301");
         theatreService.updateSeatReservationStatus("2", "401", "301");
         userService.getUser("101").getBookings().put("501", booking1);
-        paymentService.pay(PaymentTypeEnum.UPI, 200);
+//        paymentService.pay(PaymentTypeEnum.UPI, 200);
 
         // display available seats
         theatreService.showSeatAvailability(theatre1.getTheatreId(), show1.getShowId());
