@@ -1,4 +1,4 @@
-package CronParser.Constants;
+package com.LLD.LLD.CronParser.Constants;
 
 public class TimeMeasurmentConstants {
 

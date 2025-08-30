@@ -1,4 +1,4 @@
-package CronParser.Exceptions;
+package com.LLD.LLD.CronParser.Exceptions;
 
 public class InvalidCronExpression extends RuntimeException {
     public InvalidCronExpression(String message) {

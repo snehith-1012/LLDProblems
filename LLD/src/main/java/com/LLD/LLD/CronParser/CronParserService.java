@@ -1,14 +1,14 @@
-package CronParser;
+package com.LLD.LLD.CronParser;
 
-import CronParser.Chain.*;
-import CronParser.Exceptions.InvalidCronExpression;
+import com.LLD.LLD.CronParser.Chain.*;
+import com.LLD.LLD.CronParser.Exceptions.InvalidCronExpression;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-import static CronParser.Constants.cronExpressionConstants.QUESTION_MARK;
+import static com.LLD.LLD.CronParser.Constants.cronExpressionConstants.QUESTION_MARK;
 
 
 

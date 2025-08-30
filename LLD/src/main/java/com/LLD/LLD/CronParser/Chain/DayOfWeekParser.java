@@ -1,14 +1,14 @@
-package CronParser.Chain;
+package com.LLD.LLD.CronParser.Chain;
 
-import CronParser.Exceptions.InvalidCronExpression;
-import CronParser.ParsingStratergy.ParsingStratergiesFactory;
-import CronParser.ParsingStratergy.ParsingStratergy;
+import com.LLD.LLD.CronParser.Exceptions.InvalidCronExpression;
+import com.LLD.LLD.CronParser.ParsingStratergy.ParsingStratergiesFactory;
+import com.LLD.LLD.CronParser.ParsingStratergy.ParsingStratergy;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static CronParser.Constants.TimeMeasurmentConstants.DAY_OF_WEEK;
+import static com.LLD.LLD.CronParser.Constants.TimeMeasurmentConstants.DAY_OF_WEEK;
 
 public class DayOfWeekParser extends CronChainHandler {
 

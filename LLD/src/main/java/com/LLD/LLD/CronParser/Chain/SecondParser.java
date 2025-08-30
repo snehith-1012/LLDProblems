@@ -1,15 +1,14 @@
-package CronParser.Chain;
+package com.LLD.LLD.CronParser.Chain;
 
-import CronParser.Exceptions.InvalidCronExpression;
-import CronParser.ParsingStratergy.ParsingStratergiesFactory;
-import CronParser.ParsingStratergy.ParsingStratergy;
-import CronParser.Utils.ExpressionDetermineUtils;
+import com.LLD.LLD.CronParser.Exceptions.InvalidCronExpression;
+import com.LLD.LLD.CronParser.ParsingStratergy.ParsingStratergiesFactory;
+import com.LLD.LLD.CronParser.ParsingStratergy.ParsingStratergy;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static CronParser.Constants.TimeMeasurmentConstants.SECOND;
+import static com.LLD.LLD.CronParser.Constants.TimeMeasurmentConstants.SECOND;
 
 public class SecondParser extends CronChainHandler {
 

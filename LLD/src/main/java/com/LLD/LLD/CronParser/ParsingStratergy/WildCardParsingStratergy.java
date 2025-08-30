@@ -1,17 +1,16 @@
-package CronParser.ParsingStratergy;
+package com.LLD.LLD.CronParser.ParsingStratergy;
 
-import CronParser.Chain.CronChainHandler;
-import CronParser.Chain.DayOfWeekParser;
-import CronParser.Exceptions.InvalidCronExpression;
+import com.LLD.LLD.CronParser.Chain.CronChainHandler;
+import com.LLD.LLD.CronParser.Exceptions.InvalidCronExpression;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static CronParser.Constants.TimeMeasurmentConstants.DAY_OF_MONTH;
-import static CronParser.Constants.TimeMeasurmentConstants.DAY_OF_WEEK;
-import static CronParser.Constants.cronExpressionConstants.QUESTION_MARK;
-import static CronParser.Constants.cronExpressionConstants.STAR;
+import static com.LLD.LLD.CronParser.Constants.TimeMeasurmentConstants.DAY_OF_MONTH;
+import static com.LLD.LLD.CronParser.Constants.TimeMeasurmentConstants.DAY_OF_WEEK;
+import static com.LLD.LLD.CronParser.Constants.cronExpressionConstants.QUESTION_MARK;
+import static com.LLD.LLD.CronParser.Constants.cronExpressionConstants.STAR;
 
 public class WildCardParsingStratergy implements ParsingStratergy {
 

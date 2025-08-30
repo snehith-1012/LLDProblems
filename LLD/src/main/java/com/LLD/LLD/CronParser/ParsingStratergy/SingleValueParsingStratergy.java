@@ -1,16 +1,14 @@
-package CronParser.ParsingStratergy;
+package com.LLD.LLD.CronParser.ParsingStratergy;
 
-import CronParser.Chain.CronChainHandler;
-import CronParser.Chain.DayOfWeekParser;
-import CronParser.Chain.MonthParser;
-import CronParser.Utils.ExpressionDetermineUtils;
+import com.LLD.LLD.CronParser.Chain.CronChainHandler;
+import com.LLD.LLD.CronParser.Utils.ExpressionDetermineUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import static CronParser.Constants.TimeMeasurmentConstants.DAY_OF_WEEK;
-import static CronParser.Constants.TimeMeasurmentConstants.MONTH;
+import static com.LLD.LLD.CronParser.Constants.TimeMeasurmentConstants.DAY_OF_WEEK;
+import static com.LLD.LLD.CronParser.Constants.TimeMeasurmentConstants.MONTH;
 
 public class SingleValueParsingStratergy implements ParsingStratergy {
 

@@ -1,14 +1,13 @@
-package CronParser.Utils;
+package com.LLD.LLD.CronParser.Utils;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static CronParser.Constants.cronExpressionConstants.*;
-import static CronParser.Constants.cronExpressionConstants.COMMA;
-import static CronParser.Constants.cronExpressionConstants.HYPHEN;
-import static CronParser.Constants.cronExpressionConstants.QUESTION_MARK;
-import static CronParser.Constants.cronExpressionConstants.SLASH;
-import static CronParser.Constants.cronExpressionConstants.STAR;
+import static com.LLD.LLD.CronParser.Constants.cronExpressionConstants.COMMA;
+import static com.LLD.LLD.CronParser.Constants.cronExpressionConstants.HYPHEN;
+import static com.LLD.LLD.CronParser.Constants.cronExpressionConstants.QUESTION_MARK;
+import static com.LLD.LLD.CronParser.Constants.cronExpressionConstants.SLASH;
+import static com.LLD.LLD.CronParser.Constants.cronExpressionConstants.STAR;
 
 public class ExpressionDetermineUtils {
 

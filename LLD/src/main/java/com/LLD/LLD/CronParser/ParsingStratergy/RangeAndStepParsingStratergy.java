@@ -1,16 +1,15 @@
-package CronParser.ParsingStratergy;
+package com.LLD.LLD.CronParser.ParsingStratergy;
 
-import CronParser.Chain.CronChainHandler;
-import CronParser.Exceptions.InvalidCronExpression;
-import CronParser.Utils.ExpressionDetermineUtils;
-import org.w3c.dom.ranges.Range;
+import com.LLD.LLD.CronParser.Chain.CronChainHandler;
+import com.LLD.LLD.CronParser.Exceptions.InvalidCronExpression;
+import com.LLD.LLD.CronParser.Utils.ExpressionDetermineUtils;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-import static CronParser.Constants.cronExpressionConstants.STAR;
+import static com.LLD.LLD.CronParser.Constants.cronExpressionConstants.STAR;
 
 public class RangeAndStepParsingStratergy implements ParsingStratergy {
 

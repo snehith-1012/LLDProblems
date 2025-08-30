@@ -1,6 +1,6 @@
-package CronParser.ParsingStratergy;
+package com.LLD.LLD.CronParser.ParsingStratergy;
 
-import CronParser.Chain.CronChainHandler;
+import com.LLD.LLD.CronParser.Chain.CronChainHandler;
 
 import java.util.List;
 import java.util.Map;
